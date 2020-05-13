@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;515;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url(assets/fonts/Comfortaa);
+@import url(assets/fonts/Satisfy);
+
+
+body{
+  margin: 0;
+  background:url(assets/img/c2.jpg);
+  background-position: center;
+  background-size: 700px 400px;
+  font-family: 'Comfortaa', cursive;
+  
+}
+
+#overlay{
+  background-color: rgba(220, 220,220,  0.7); 
+}
+
+#main{
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgba(240, 240, 240, 0.8);
+}
+
+#title{
+  font-size: 3.5em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  background-color: hsla(210, 50%, 50%, 0.8);
+  padding: 10px;
+  color: white;
+}
+
+#subtitle{
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+  font-size: 1.35em;
+  margin: 20px;
+  color: blue;
+  font-weight: bold;
+}
+
+#image{
+  display: block;
+  margin: 50px auto 0;
+  padding: 10px;
+  width: 700px;
+  max-width: 90%;
+  height: auto;
+  border-radius: 30px;
+  color: rgba(240, 240, 240, 0.8);
+}
+
+
+#img-caption{
+  font-size: .8em;
+  color: hsla(210, 50%, 50%, 0.8);
+}
+
+h2{
+  margin-top: 70px;
+}
+article p{
+  font-weight: bold;
+  line-height: 2em;
+  text-align: justify;
+}
+.article {
+  padding: 10px 30px;
+  text-align: left;
+  margin: 0 15px;
+}
+
+#tribute-link{
+  text-decoration: none;
+  color: white;
+  text-align: right;
+  font-size: .8em;
+  background-color: red;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+footer{
+  padding: 15px 10px;
+  color: black;
+  font-size: 0.8em;
+  text-align: center;
+
+
+
